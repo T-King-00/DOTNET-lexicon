@@ -1,0 +1,42 @@
+﻿body{
+    margin: auto;
+    padding: 5px;
+}
+body ::selection{
+    color: #ffffff;;
+}
+
+header{
+    background: #1ee4ff;
+    padding: 5px;
+
+}
+footer{
+    background: #38d3d3;
+    height: 250px;
+    
+}
+
+.section{
+    background: #b5b0b0;
+    padding: 10px;
+
+}
+#section2{
+    background: #b7d1d1;
+}
+
+body>div p:first-of-type{
+    background: rgb(219 213 213);
+    box-sizing: border-box;
+    display: block;
+    width: 40%;
+    padding: 50px;
+}
+body>div p:first-of-type:first-letter{
+    font-size: 29px;
+}
+
+
+
+
