@@ -27,3 +27,5 @@ I'm always open to discussing new projects, creative ideas, or opportunities to 
 - **LinkedIn:** [Link to my LinkedIn Profile](https://www.linkedin.com/in/tony-r-5393901b2)
 - **GitHub:** [Link to my GitHub Profile](https://github.com/T-King-00)
 
+## Learned  
+- best practices for usage of sizing units.

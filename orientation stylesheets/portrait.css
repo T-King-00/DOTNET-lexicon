@@ -1,8 +1,20 @@
-﻿@media (orientation: portrait) and (min-height: 50px) {
+﻿
 
-    body{
+@media (orientation: portrait) and (min-height: 50px) {
+
+    
+    /* ----------------Global styles --------------- */
+    *{
         margin: auto;
-        padding: 5px;
+    }
+    
+    html{
+        font-size: 62.5%;
+    }
+    
+    body{
+        font-size: 1.4rem;
+     ;
     }
     body ::selection{
         color: #ffffff;;
@@ -11,28 +23,35 @@
     header{
         display: flex;
         background: #97e3ec;
-        padding: 5px;
+        padding: 2rem;
 
     }
-    #nav-title-container >h1{
-        font-size: small;
+    footer{
+        background: #9fe8e8;
+        padding: 1rem;
+        height: 15rem;
+        align-content: center;
+        margin: auto;
+        text-align: center;
+        letter-spacing:3px
     }
+    /*------------------------------------------------*/
 
     .nav-items-list{
         flex-direction: column;
         justify-content: space-between;
         margin: auto;
         list-style-type: none;
-        
     }
  
     
-    #section-container{
+    #sections-container{
         background: #b7bccc;
     }
+   
     .section{
         display: block;
-        padding: 6px;
+        padding: 3rem ;
     }
     
     .section:nth-child(even){
@@ -41,35 +60,37 @@
     .section:nth-child(odd){
         background: #bee3b1;
     }
- 
-    #section1 p:first-of-type{
-        background: rgb(219 213 213);
+    .section>h2{
+        padding: 1rem;
+    }
+    
+    .section>div{
+        padding: 1.5rem;
+    }
+    
+    #section1-about p:first-of-type{
+        background: hsl(100 50 90);
         box-sizing: border-box;
         display: block;
-        padding: 25px;
+        padding: 2rem;
     }
-    #section1 p:first-of-type:first-letter{
-        font-size: 29px;
+    #section1-about p:first-of-type:first-letter{
+        font-size: 2rem;
     }
     #asideSection1{
         background: #086a76;
         margin: auto;
         width: fit-content;
-        padding: 25px;
+        padding: 2rem;
+    }
+    .skills-list> li{
+        list-style-type: none;
+        padding: 1rem;
+        font-size: 1.4rem;
     }
 
 
-    footer{
-        background: #9fe8e8;
-        padding: 10px;
-        height: 250px;
-        align-content: center;
-        margin: auto;
-        text-align: center;
-        
-
-
-    }
+ 
 
 
 

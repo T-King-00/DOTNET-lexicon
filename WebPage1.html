@@ -11,8 +11,8 @@
 <body>
     
     <header class="header">
-        <div class="nav-title-container">
-            <h1>Tony Riad's Portfolio</h1>
+        <div class="nav-container">
+            <h1 class="nav-container-header">Tony Riad's Portfolio</h1>
         </div>
 
         <div id="navigation-toggle" class="nav-toggle">
@@ -27,9 +27,9 @@
                     <li>
                         <a href="#section1" class="nav-item">About</a>
                         <a href="#section2" class="nav-item">Skills</a>
-                        <a href="#section3" class="nav-item">Projects</a>
-                        <a href="#section4" class="nav-item">Education</a>
-                        <a href="#section5" class="nav-item">Experience</a>
+                        <a href="#section3-projects" class="nav-item">Projects</a>
+                        <a href="#section4-education" class="nav-item">Education</a>
+                        <a href="#section5-experience" class="nav-item">Experience</a>
                     </li>
                 </ul>
 
@@ -38,40 +38,95 @@
         </div>
       
     </header>
-    <div id="section-container">
-        <section id="section1" class="section">
+    <div id="sections-container">
+        <section id="section1-about" class="section">
             <p >Hello! I'm Tony Riad, a passionate software developer dedicated to building elegant,
                 scalable, and user-centric applications. Welcome to my portfolio website,
                 where you can explore some of my recent projects, learn about my skills,
                 and see my professional journey.</p>
           
                 
-            </div>
             <aside id="asideSection1">
                 aside paragraph or picture
             </aside>
         </section>
         
-        <section id="section2" class="section">
+        <section id="section2-skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <ul class="skills-list">
+                    <li><strong>Backend / Core:</strong> C#, .NET Core, Java, Python, WCF, LINQ, EF Core, RESTful APIs, WPF, Relational Databases</li>
+                    <li><strong>Frontend / Web:</strong><pre>React, JavaScript, HTML, CSS, Blazor, Bootstrap, Tailwind, WebSockets </pre></li>
 
-            This section for Skills<br>
-            lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+                   <li><strong>Testing:</strong> XUnit, Selenium</li>
+                    <li><strong>DevOps / Cloud:</strong> Docker, AWS, Azure, CI/CD, GitHub Actions, Jenkins, Bash</li>
+                    <li><strong>Tools & Version Control:</strong> Git, GitHub, Postman, AI-agents</li>
+                </ul>
+            </div>
         </section>
-        <section id="section3" class="section">
-            This section for projects<br>
-            lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+        <section id="section3-projects" class="section">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>3-Tier Web Application Deployment (AWS)</h3>
+                <p>Designed and deployed a scalable multi-tier architecture using EC2, RDS, CloudWatch, Auto Scaling.</p>
+            </div>
+            <div class="project-item">
+                <h3>Automation for generation of UML design</h3>
+                <p>Logic module for analyzing text input and generating class/use-case diagrams. Technologies: Python, NLTK, SpaCy, Flask API, React.</p>
+            </div>
+            <div class="project-item">
+                <h3>Bike Ecommerce Web Application</h3>
+                <p>Service-oriented e-commerce system using ASP.NET MVC and WCF Services. Technologies: C#, .NET MVC, WCF, Razor, MSSQL, Bootstrap.</p>
+            </div>
+            <div class="project-item">
+                <h3>Gym Management System</h3>
+                <p>Built a JavaFX GUI application with role-based access for admins and employees to manage classes, members, and trainers. Technologies: Java, JavaFX, MSSQL, OOP.</p>
+            </div>
         </section>
-        <section id="section4" class="section">
-            This section for education<br>
-            lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+        <section id="section4-education" class="section">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Master's Courses in Software Engineering</h3>
+                <p>Blekinge Institute of Technology (BTH), Sweden (2024 - 2025)</p>
+                <p>Courses: Software Testing, Software Sustainability, Software Quality Engineering, Software Metrics, Cloud Computing, Applied AI, Programming in Unix Environment.</p>
+            </div>
+            <div class="education-item">
+                <h3>Bachelor's Degree in Software Engineering</h3>
+                <p>Ain Shams University, Egypt (2019 - 2023)</p>
+                <p>Grade: Very Good with Honors (GPA: B).</p>
+            </div>
+            <div class="education-item">
+                <h3>Cloud Architecture (AWS & Azure)</h3>
+                <p>Information Technology Institute, Egypt (2023)</p>
+            </div>
+             <div class="education-item">
+                <h3>Technical Support Fundamentals Course</h3>
+                <p>Google (2020)</p>
+            </div>
         </section>
-        <section id="section5" class="section">
-            This section for Experience<br>
-            lorem ipsum dolor sit amet
-            lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+        <section id="section5-experience" class="section">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Junior .NET Developer Program</h3>
+                <p><strong>Lexicon, Sweden</strong> (2026 - Present)</p>
+                <ul>
+                    <li>Intensive practical training in modern, agile development.</li>
+                    <li>Building scalable .NET projects from scratch in a team environment.</li>
+                    <li>Focusing on C#, ASP.NET Core, Entity Framework, and clean architecture.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Expedition Worker</h3>
+                <p><strong>Guldfågeln AB, Sweden</strong> (Summer 2024)</p>
+                <ul>
+                    <li>Utilized warehouse management systems and handheld scanners for inventory tracking.</li>
+                    <li>Operated forklifts and managed order picking and shipments.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Volunteer IT Support</h3>
+                <p><strong>Saint Mary Saint Beshoy Church, Egypt</strong> (2018 - 2022)</p>
+            </div>
         </section>
         
     </div>
@@ -79,11 +134,11 @@
     <footer>
        <div class="footer-content">
            <div class="footer-section about">
-               <p>Email: <a href="mailto:tony_riad@example.com">tony.riad@example.com</a></p>
+               <p>Email: <a href="mailto:tony_riad@outlook.com">tony_riad@outlook.com</a></p>
            </div>
            <div class="footer-section links">
                <a href="https://www.linkedin.com/in/tony-r-5393901b2" target="_blank">LinkedIn</a> |
-               <a href="https://github.com/" target="_blank">GitHub</a> 
+               <a href="https://github.com/T-King-00" target="_blank">GitHub</a>
            </div>
            <div class="footer-bottom">
                &copy; 2026 Portfolio Website | Designed by Tony Riad
