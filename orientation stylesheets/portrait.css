@@ -1,99 +1,176 @@
-﻿
+﻿:root {
+    /* Main page background.
+       Use for the body/background of the whole website. */
+    --bg: #F9FAFB;
+
+    /* Card and section background.
+       Use for project cards, experience boxes, contact forms, and navbar if needed. */
+    --card: #FFFFFF;
+
+    /* Main text color.
+       Use for headings, names, job titles, and important text. */
+    --text: #111827;
+
+    /* Secondary text color.
+       Use for descriptions, dates, subtitles, small text, and less important details. */
+    --muted: #6B7280;
+
+    /* Primary brand color.
+       Use for main buttons, active navigation links, important icons, and key highlights. */
+    --primary: #1E3A8A;
+
+    /* Primary hover color.
+       Use when the user hovers over buttons, links, or clickable primary elements. */
+    --primary-hover: #1E40AF;
+
+    /* Accent color.
+       Use for small highlights, skill tags, success indicators, icons, and subtle decorative details. */
+    --accent: #10B981;
+
+    /* Border color.
+       Use for card borders, input borders, dividers, and section separators. */
+    --border: #E5E7EB;
+}
 
 @media (orientation: portrait) and (min-height: 50px) {
-
     
     /* ----------------Global styles --------------- */
-    *{
+    * {
         margin: auto;
     }
-    
-    html{
+
+    html {
         font-size: 62.5%;
     }
-    
-    body{
+
+    body {
+        font-family:  Inter ,Roboto, sans-serif;
         font-size: 1.4rem;
-     ;
-    }
-    body ::selection{
-        color: #ffffff;;
+        line-height: 1.6;
+        background: var(--bg);
+        color: var(--text);
+
     }
 
-    header{
+    body ::selection {
+        background: var(--primary);
+        color: var(--card);
+    }
+
+    header {
         display: flex;
-        background: #97e3ec;
+        background: var(--card);
         padding: 2rem;
-
+        color: var(--text);
+        font-weight: 700;
+        font-size: 1.8rem;
     }
-    footer{
-        background: #9fe8e8;
-        padding: 1rem;
-        height: 15rem;
-        align-content: center;
-        margin: auto;
+
+    footer {
+        background: var(--card);
+        border-top: 1px solid var(--border);
+        padding: 4rem 2rem;
+        color: var(--muted);
         text-align: center;
-        letter-spacing:3px
     }
-    /*------------------------------------------------*/
 
-    .nav-items-list{
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer-section {
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: var(--primary-hover);
+            text-decoration: underline;
+        }
+    }
+
+    .footer-bottom {
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.15rem;
+        margin-top: 1rem;
+        opacity: 0.8;
+    }
+
+    /*------------------------------------------------*/
+    .nav-items-list {
         flex-direction: column;
         justify-content: space-between;
         margin: auto;
         list-style-type: none;
     }
- 
-    
-    #sections-container{
+
+
+    #sections-container {
         background: #b7bccc;
     }
-   
-    .section{
+
+    .section {
         display: block;
-        padding: 3rem ;
+        padding: 3rem;
+        color: var(--text);
+
+        div {
+            padding: 1.5rem;
+        }
+
+        h2 {
+            padding: 1rem;
+            font-size: 2.2rem;
+            font-weight: 700;
+        }
     }
-    
-    .section:nth-child(even){
+
+    .section:nth-child(even) {
         background: #b7bccc;
     }
-    .section:nth-child(odd){
+
+    .section:nth-child(odd) {
         background: #bee3b1;
     }
-    .section>h2{
-        padding: 1rem;
+
+
+    #section1-about {
+        p:first-of-type {
+            background: hsl(107 17% 84%);
+            box-sizing: border-box;
+            display: block;
+            padding: 2rem;
+            color: var(--text);
+        }
+
+        p:first-of-type:first-letter {
+            font-size: 3.5rem;
+            font-weight: 700;
+            float: left;
+            line-height: 1;
+            margin-right: 0.8rem;
+        }
     }
-    
-    .section>div{
-        padding: 1.5rem;
-    }
-    
-    #section1-about p:first-of-type{
-        background: hsl(100 50 90);
-        box-sizing: border-box;
-        display: block;
-        padding: 2rem;
-    }
-    #section1-about p:first-of-type:first-letter{
-        font-size: 2rem;
-    }
-    #asideSection1{
+
+
+    #asideSection1 {
         background: #086a76;
         margin: auto;
+        color: var(--card);
         width: fit-content;
         padding: 2rem;
     }
-    .skills-list> li{
+
+    .skills-list > li {
         list-style-type: none;
         padding: 1rem;
         font-size: 1.4rem;
+        color: var(--text);
+        font-weight: 500;
     }
-
-
- 
-
-
-
-
 }
-
