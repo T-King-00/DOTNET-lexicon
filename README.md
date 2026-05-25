@@ -29,3 +29,6 @@ I'm always open to discussing new projects, creative ideas, or opportunities to 
 
 ## Learned  
 - best practices for usage of sizing units.
+- css nesting
+- global css variables
+- 

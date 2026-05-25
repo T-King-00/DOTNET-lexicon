@@ -1,78 +1,117 @@
 ﻿@media (orientation: landscape) and (min-width: 700px) {
-    body{
+    body {
         margin: auto;
-        padding: 5px;
-    }
-    body ::selection{
-        color: #ffffff;;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 1.2rem;
+        line-height: 1.6;
+        background: var(--bg);
+        color: var(--text);
     }
 
-    header{
-        background: #97e3ec;
-        padding: 5px;
+    body ::selection {
+        background: var(--primary);
+        color: var(--card);
+    }
 
+    header {
+        background: var(--card);
+        padding: 2rem;
+        color: var(--text);
+        font-weight: 700;
+        font-size: 1rem;
+        border-bottom: 1px solid var(--border);
     }
     
-    .nav-items-list{
+    .nav-items-list {
         display: flex;
-
         justify-content: space-between;
         margin: auto;
         list-style-type: none;
-
+        max-width: 1200px;
     }
-    .section{
+
+    .section {
         display: block;
-        padding: 6px;
+        padding: 4rem 2rem;
+        color: var(--text);
     }
 
-    .section :nth(2){
-        background: #1ee4ff;
-        padding: 6px;
-        
-    }
-    #section2-skills{
-        background: #b7d1d1;
-    }
-    #section1-about{
+    #section1-about {
         display: flex;
         flex-direction: row;
+        align-items: stretch;
+        gap: 2rem;
     }
-    #asideSection1{
+
+    #asideSection1 {
         background: #086a76;
-        margin: auto;
-        width: fit-content;
-        padding: 25px;
+        color: var(--card);
+        margin: 0;
+        width: 30%;
+        padding: 3rem;
     }
 
-    #section1-about p:first-of-type{
-        background: rgb(219 213 213);
+    #section1-about p:first-of-type {
+        background: hsl(107 17% 84%);
         box-sizing: border-box;
-        width: 40%;
-        padding: 50px;
-    }
-    #section1-about p:first-of-type:first-letter{
-        font-size: 29px;
+        width: 70%;
+        padding: 4rem;
     }
 
+    #section1-about p:first-of-type:first-letter {
+        font-size: 4rem;
+        font-weight: 700;
+        float: left;
+        line-height: 1;
+        margin-right: 1.2rem;
+    }
     
-    .section:nth-child(even){
+    .section:nth-child(even) {
         background: #b7bccc;
     }
-    .section:nth-child(odd){
+
+    .section:nth-child(odd) {
         background: #bee3b1;
     }
 
-    footer{
-        background: #9fe8e8;
-        padding: 1rem;
-        height: 15rem;
-        align-content: center;
-        margin: auto;
+    footer {
+        background: var(--card);
+        border-top: 1px solid var(--border);
+        padding: 4rem 2rem;
+        color: var(--muted);
         text-align: center;
     }
 
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
 
+    .footer-links {
+        display: flex;
+        justify-content: center;
+        gap: 2.5rem;
+    }
 
+    .footer-content a {
+        color: var(--primary);
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 0.3s ease;
+    }
+
+    .footer-content a:hover {
+        color: var(--primary-hover);
+    }
+
+    .footer-bottom {
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.15rem;
+        margin-top: 1rem;
+        padding-top: 2rem;
+        border-top: 1px dashed var(--border);
+        opacity: 0.8;
+    }
 }
-
