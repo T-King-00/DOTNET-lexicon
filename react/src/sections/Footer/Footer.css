@@ -1,0 +1,23 @@
+﻿.footer-container{
+    color: hsl(400 100% 100%);
+    text-align: center;
+    margin: auto;
+    letter-spacing: 0.15rem;
+    padding: 3rem;
+    background: hsl(203 95% 15%);
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px; /* Adjust this value to increase or decrease the space */
+    justify-content: center; /* Centers the links horizontally */
+    flex-wrap: wrap; /* Ensures links wrap properly on smaller screens */
+}
+
+.footer-bottom {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    margin-top: 1rem;
+    opacity: 0.8;
+}

@@ -5,11 +5,11 @@
 
     /* Card and section background.
        Use for project cards, experience boxes, contact forms, and navbar if needed. */
-    --card: #FFFFFF;
+    --card: #c5a8a8;
 
     /* Main text color.
        Use for headings, names, job titles, and important text. */
-    --text: #111827;
+    --text: #124dd1;
 
     /* Secondary text color.
        Use for descriptions, dates, subtitles, small text, and less important details. */
@@ -66,40 +66,7 @@
         font-size: 1.8rem;
     }
 
-    footer {
-        background: var(--card);
-        border-top: 1px solid var(--border);
-        padding: 4rem 2rem;
-        color: var(--muted);
-        text-align: center;
-    }
-
-    .footer-content {
-        display: flex;
-        flex-direction: column;
-        gap: 1.5rem;
-    }
-
-    .footer-section {
-        a {
-            color: var(--primary);
-            text-decoration: none;
-            font-weight: 600;
-            transition: color 0.3s ease;
-        }
-        a:hover {
-            color: var(--primary-hover);
-            text-decoration: underline;
-        }
-    }
-
-    .footer-bottom {
-        font-size: 1.1rem;
-        text-transform: uppercase;
-        letter-spacing: 0.15rem;
-        margin-top: 1rem;
-        opacity: 0.8;
-    }
+  
 
     /*------------------------------------------------*/
     .nav-items-list {
