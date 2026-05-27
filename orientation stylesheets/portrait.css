@@ -17,11 +17,11 @@
 
     /* Primary brand color.
        Use for main buttons, active navigation links, important icons, and key highlights. */
-    --primary: #1E3A8A;
+    --primary: #6d7287;
 
     /* Primary hover color.
        Use when the user hovers over buttons, links, or clickable primary elements. */
-    --primary-hover: #1E40AF;
+    --primary-hover: #083cc5;
 
     /* Accent color.
        Use for small highlights, skill tags, success indicators, icons, and subtle decorative details. */
