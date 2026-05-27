@@ -1,6 +1,26 @@
-﻿.body-container{
-    display: block;
-    background-color: hsl(205 100% 6%);
-    margin: auto;
-    padding: 2rem;
+#body-container {
+    flex: 1;
+    min-width: 0;
+    background-color: var(--color-surface);
+    color: var(--color-text);
+    margin: 0;
+    padding: 4rem;
+}
+
+.section{
+    width: 100%;
+}
+@media (max-width: 640px) {
+    #body-container {
+        padding: 2.4rem;
+    }
+
+    #body-container p {
+        font-size: 1.6rem;
+    }
+
+    #section1-about > p {
+        padding: 1.8rem 2rem;
+        font-size: 1.7rem;
+    }
 }

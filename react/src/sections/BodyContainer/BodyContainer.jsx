@@ -1,9 +1,9 @@
 ﻿import "./BodyContainer.css"
-function BodyContainer({children}) {
+function BodyContainer({children,className}) {
     
     return(
         <>
-            <div className="body-container" id={ "body-container"}>
+            <div className={className} id={ "body-container"}>
                 {children}
              </div>
         </>
