@@ -14,7 +14,7 @@ function Footer() {
                 <a href={linkedinLink} target="_blank"
                    rel="noopener noreferrer">LinkedIn</a>
                 <a href={githubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a href="#navBar">Back to Top ↑</a>
+                <a href="#Header">Back to Top ↑</a>
             </nav>
             <div className="footer-bottom">
                 <p>&copy; 2026 Tony Riad. <br/>All rights reserved.</p>

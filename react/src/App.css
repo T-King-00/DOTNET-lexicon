@@ -60,6 +60,11 @@
 .PageContainer {
     display: flex;
     align-items: stretch;
-    background-color: var(--color-bg);
+    background:
+            linear-gradient(
+                    to right,
+                    var(--color-sidebar) 0 25rem,
+                    var(--color-bg) 25rem 100%
+            );
     color: var(--color-text);
 }

@@ -16,7 +16,7 @@ Here are some of the technologies I work with:
 - HTML5 & CSS3
 - JavaScript (ES6+)
 - React 
-- Tailwind CSS / Bootstrap
+- Tailwind /Bootstrap( will be used in future versions )
 - UI/UX Design Principles
 
 ## 📬 Contact Me
@@ -27,8 +27,21 @@ I'm always open to discussing new projects, creative ideas, or opportunities to 
 - **LinkedIn:** [Link to my LinkedIn Profile](https://www.linkedin.com/in/tony-r-5393901b2)
 - **GitHub:** [Link to my GitHub Profile](https://github.com/T-King-00)
 
-## Learned  
+## Topics Learned 
+### In css:
 - best practices for usage of sizing units.
+- different display types
 - css nesting
 - global css variables
-- 
+### In React: 
+- React + Vite setup
+- JSX
+- Functional components
+- Component composition
+- Props
+- Children props
+- State with useState
+- Event handling with onClick
+- Arrow functions
+- Importing CSS into components
+- Importing and using image assets
