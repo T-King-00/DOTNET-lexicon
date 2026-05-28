@@ -1,0 +1,21 @@
+﻿.section3-projects{
+    
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+    .projects-list{
+        list-style-type: upper-roman;
+
+    }
+}
+
+.project-item{
+    margin-left: 2rem;
+    padding: 1rem;
+    h3{
+        font-size: 1.2rem;
+    }
+    .project-stack{
+        margin-bottom: 1rem;
+    }
+}

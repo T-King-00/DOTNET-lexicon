@@ -1,0 +1,19 @@
+﻿#section4-education{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+    
+    h3{
+        margin: 0.1rem;
+    }
+    ul{
+        list-style-type: square;
+    }
+    li{
+        margin-bottom: 0.8rem;
+        margin-left: 2rem;
+    }
+   
+    
+}
+

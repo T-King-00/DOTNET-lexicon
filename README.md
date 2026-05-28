@@ -45,3 +45,4 @@ I'm always open to discussing new projects, creative ideas, or opportunities to 
 - Arrow functions
 - Importing CSS into components
 - Importing and using image assets
+- Mapping and usage of jsx objects.
