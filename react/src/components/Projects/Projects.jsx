@@ -1,6 +1,20 @@
-﻿import projects from "./ProjectObjects.jsx"
+﻿import projectsObj from "./ProjectObjects.jsx"
 import "./projects.css"
+import React, {useState} from "react";
 function Projects() {
+    const [projects,setProjects]=useState(projectsObj);
+    const addProject=()=> {
+        setProjects([...projectsObj,
+            
+            {
+                id: 5,
+                title: "Gym Management System",
+                description:
+                    "Built a JavaFX GUI application with role-based access for admins and employees to manage classes, members, and trainers.",
+                techStack: ["Java", "JavaFX", "MSSQL", "OOP Concepts"],
+            }
+            ]);
+    } 
     return (
         <section id="section3-projects" className="section">
             <h2>Projects</h2>
@@ -16,7 +30,9 @@ function Projects() {
                         </li>
                 ))}
             </ul>
+
         </section>
     )
 }
 export default Projects;
+export const ProjectsMemo=React.memo(Projects);

@@ -6,7 +6,7 @@ This repository contains the source code for my online portfolio, designed to sh
 ## 🌟 About Me
 
 Hello! I'm a passionate developer who loves building innovative and user-friendly web applications. 
-I enjoy tackling complex problems and learning new technologies to continuously improve my craft. This website serves as a digital resume and a platform to share my journey in tech.
+I enjoy tackling complex problems and learning new technologies to continuously improve my craft. This website serves as a digital résumé and a platform to share my journey in tech.
 
 ## 🚀 Skills & Technologies
 
@@ -16,7 +16,7 @@ Here are some of the technologies I work with:
 - HTML5 & CSS3
 - JavaScript (ES6+)
 - React 
-- Tailwind /Bootstrap( will be used in future versions )
+- Tailwind /Bootstrap( will be used in future versions)
 - UI/UX Design Principles
 
 ## 📬 Contact Me
@@ -28,11 +28,11 @@ I'm always open to discussing new projects, creative ideas, or opportunities to 
 - **GitHub:** [Link to my GitHub Profile](https://github.com/T-King-00)
 
 ## Topics Learned 
-### In css:
+### In CSS:
 - best practices for usage of sizing units.
 - different display types
-- css nesting
-- global css variables
+- CSS nesting
+- global CSS variables
 ### In React: 
 - React + Vite setup
 - JSX
@@ -46,3 +46,5 @@ I'm always open to discussing new projects, creative ideas, or opportunities to 
 - Importing CSS into components
 - Importing and using image assets
 - Mapping and usage of jsx objects.
+- Extracting components
+- 

@@ -56,7 +56,7 @@ function SideBar(props) {
                     </nav>
 
                 </div>
-                <button className="theme-toggle-button" onClick={toggleTheme}>Change Theme</button>
+                <button className="theme-toggle-button" onClick={toggleTheme}>Toggle Theme</button>
             </div>
         </>
     )

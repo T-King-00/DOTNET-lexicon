@@ -31,7 +31,7 @@
     --color-accent-hover: #0ea5e9;
     
     --color-bg: #0f172a;
-    --color-border: rgb(255 255 255 / 0.5);
+    --color-border: rgb(255 255 255 / 0.7);
     --color-button-bg: #38bdf8;
     --color-button-bg-hover: #0ea5e9;
     --color-button-text: #06121f;
@@ -58,13 +58,19 @@
 }
 
 .PageContainer {
+    --sidebar-width: min(20%, 30rem);
+
     display: flex;
-    align-items: stretch;
     background:
             linear-gradient(
                     to right,
-                    var(--color-sidebar) 0 25rem,
-                    var(--color-bg) 25rem 100%
+                    var(--color-sidebar) 0 var(--sidebar-width),
+                    var(--color-bg) var(--sidebar-width) 100%
+            
             );
     color: var(--color-text);
+}
+
+@media (max-width: 640px) {
+   
 }
