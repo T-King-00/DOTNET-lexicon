@@ -11,16 +11,26 @@
     width: 100%;
 }
 @media (max-width: 640px) {
+ 
     #body-container {
-        padding: 2.4rem;
+        padding: 1rem;
+        margin-left: 0rem !important;
+    }
+    
+    .section{
+        padding: 1rem;,
+        margin-left: -1rem !important;
+        ul{
+            margin-left: -4rem;
+            list-style-type: upper-roman;
+            margin-bottom: 0.2rem;
+        }
+        li{
+            margin-left: -4rem;
+            margin-bottom: 0.2rem;
+        }
     }
 
-    #body-container p {
-        font-size: 1.6rem;
-    }
-
-    #section1-about > p {
-        padding: 1.8rem 2rem;
-        font-size: 1.7rem;
-    }
+  
+    
 }

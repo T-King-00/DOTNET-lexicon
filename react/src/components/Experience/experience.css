@@ -14,3 +14,20 @@
         }
     }
 }
+
+@media (max-width: 640px) {
+
+    #section3-projects {
+        padding: 1rem;
+    }
+    ul{
+        margin-left: -4rem;
+        list-style-type: upper-roman;
+        margin-bottom: 0.2rem;
+    }
+    li{
+        margin-left: -3rem;
+        margin-bottom: 0.2rem;
+    }
+
+}

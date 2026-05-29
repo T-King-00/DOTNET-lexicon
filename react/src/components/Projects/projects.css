@@ -1,4 +1,4 @@
-﻿.section3-projects{
+﻿#section3-projects{
     
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -19,3 +19,23 @@
         margin-bottom: 1rem;
     }
 }
+
+
+@media (max-width: 640px) {
+
+    #section3-projects{
+
+        padding: 1rem;
+        margin-left: 0rem !important;
+        ul{
+            margin-left: -1rem;
+            list-style-type: upper-roman;
+            margin-bottom: 0.2rem;
+        }
+        li{
+            margin-left: -1rem;
+            margin-bottom: 0.2rem;
+        }
+        
+    }}
+

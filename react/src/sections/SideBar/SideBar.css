@@ -84,12 +84,17 @@
 
 }
 
-@media (max-width: 800px) {
-    .SideBar-container .sideBar-pic-container {
-        margin-block: 2rem 0;
-        margin-inline: auto;
+@media (max-width: 660px) {
+    .SideBar-container{
+        flex: 0 0 20%;
+        max-width: 30rem;
+        .sideBar-pic-container {
+            margin-block: 2rem 0;
+            margin-inline: auto;
+        }
     }
+
     .nav-items-list{
-        margin-left: -10%;
+        margin-left: 0%;
     }
 }
