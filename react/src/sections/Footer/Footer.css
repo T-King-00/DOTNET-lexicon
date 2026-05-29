@@ -20,7 +20,12 @@
         color: var(--color-accent-hover);
     }
 }
-
+#get-in-touch{
+    color: var(--color-button-text);
+}
+#back-to-top{
+    color: #97e3ec;
+}
 
 .footer-bottom {
     font-size: 1.1rem;
