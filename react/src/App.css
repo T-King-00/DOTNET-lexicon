@@ -58,7 +58,7 @@
 }
 
 .PageContainer {
-    --sidebar-width: min(20%, 30rem);
+    --sidebar-width: min(100%, 30rem);
 
     display: flex;
     background:
@@ -71,6 +71,14 @@
     color: var(--color-text);
 }
 
-@media (max-width: 640px) {
-   
+@media (max-width: 770px) {
+    .PageContainer{
+        background:
+                linear-gradient(
+                        to right,
+                        var(--color-sidebar)  var(--sidebar-width),
+                        var(--color-bg) var(--sidebar-width) 100%
+
+                );
+    }
 }

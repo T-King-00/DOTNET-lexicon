@@ -14,6 +14,7 @@
 
 html {
   font-size: 62.5%;
+  background: #0b1220;
 }
 
 body {
@@ -28,7 +29,7 @@ body {
 #root {
   max-width: 100%;
   margin: 0 auto;
-  border-inline: 3px solid var(--page-border);
+  border-inline: 1% solid var(--page-border);
   min-height: 100svh;
   box-sizing: border-box;
 }
