@@ -28,6 +28,8 @@ I'm always open to discussing new projects, creative ideas, or opportunities to 
 - **GitHub:** [Link to my GitHub Profile](https://github.com/T-King-00)
 
 ## Topics Learned 
+### In deployment:
+- using bash-script to prevent writing repetitive commands after every update.
 ### In CSS:
 - best practices for usage of sizing units.
 - different display types
@@ -47,4 +49,3 @@ I'm always open to discussing new projects, creative ideas, or opportunities to 
 - Importing and using image assets
 - Mapping and usage of jsx objects.
 - Extracting components
-- 
