@@ -5,6 +5,7 @@
     letter-spacing: 0.15rem;
     padding: 6rem;
     background-color: var(--color-footer);
+    bottom: 0;
 }
 
 .footer-links {

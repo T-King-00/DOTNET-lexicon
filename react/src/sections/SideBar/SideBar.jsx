@@ -2,7 +2,7 @@
 import Img from "../../assets/PersonalPic.jpg"
 import {useState} from "react";
 const SideBarImg=Img;
-function SideBar(props) {
+function SideBar() {
     let [theme,setTheme]=useState(0);
 
     const toggleTheme = () => {
