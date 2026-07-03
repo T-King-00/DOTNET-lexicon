@@ -17,7 +17,7 @@ It is used as a collection of exercises, practice projects, a portfolio website,
 ## Projects
 
 - Course exercises - Smaller topic-based exercises used to practice C#, .NET, LINQ, object-oriented programming, and ASP.NET Core.
-- Portfolio website - A personal portfolio website built as part of the education, using frontend technologies such as React, JSX, JavaScript, HTML, and CSS.
+- [Portfolio website](https://github.com/T-King-00/DOTNET-lexicon/tree/main/Portfolio) - A personal portfolio website built as part of the education, using frontend technologies such as React, JSX, JavaScript, HTML, and CSS.
 
 
 ## Technologies
