@@ -2,7 +2,7 @@
 
 This repository contains the work completed during my .NET education at Lexicon.
 
-It is used as a collection of exercises, practice projects, and small applications built while learning C#, .NET, ASP.NET Core, LINQ, object-oriented programming, methods, enums, React, JSX, and related full-stack development concepts.
+It is used as a collection of exercises, practice projects, a portfolio website, and small applications built while learning C#, .NET, ASP.NET Core, LINQ, object-oriented programming, methods, enums, React, JSX, and related full-stack development concepts.
 
 ## Repository Structure
 
@@ -13,6 +13,12 @@ It is used as a collection of exercises, practice projects, and small applicatio
 - `exercises/Linq/` - LINQ practice projects.
 - `exercises/Calculator-BasicWebApp/` - Basic ASP.NET Core calculator web API exercise.
 - `exercises/ShoppingCart/` - Shopping cart web API exercise.
+
+## Projects
+
+- Course exercises - Smaller topic-based exercises used to practice C#, .NET, LINQ, object-oriented programming, and ASP.NET Core.
+- Portfolio website - A personal portfolio website built as part of the education, using frontend technologies such as React, JSX, JavaScript, HTML, and CSS.
+
 
 ## Technologies
 
@@ -30,4 +36,4 @@ It is used as a collection of exercises, practice projects, and small applicatio
 
 ## Purpose
 
-The purpose of this repository is to track progress throughout the Lexicon .NET program and keep all completed course work in one place. Each folder represents a topic, exercise set, or small project from the education.
+The purpose of this repository is to track progress throughout the Lexicon .NET program and keep all completed course work in one place. Each folder represents a topic, exercise set, portfolio project, or small application from the education.
