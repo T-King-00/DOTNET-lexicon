@@ -1,0 +1,15 @@
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\Linq2\bin\Debug\net10.0\Linq2.exe
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\Linq2\bin\Debug\net10.0\Linq2.deps.json
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\Linq2\bin\Debug\net10.0\Linq2.runtimeconfig.json
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\Linq2\bin\Debug\net10.0\Linq2.dll
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\Linq2\bin\Debug\net10.0\Linq2.pdb
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\Linq2\obj\Debug\net10.0\Linq2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\Linq2\obj\Debug\net10.0\Linq2.AssemblyInfoInputs.cache
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\Linq2\obj\Debug\net10.0\Linq2.AssemblyInfo.cs
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\Linq2\obj\Debug\net10.0\Linq2.csproj.CoreCompileInputs.cache
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\Linq2\obj\Debug\net10.0\Linq2.sourcelink.json
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\Linq2\obj\Debug\net10.0\Linq2.dll
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\Linq2\obj\Debug\net10.0\refint\Linq2.dll
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\Linq2\obj\Debug\net10.0\Linq2.pdb
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\Linq2\obj\Debug\net10.0\Linq2.genruntimeconfig.cache
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\Linq2\obj\Debug\net10.0\ref\Linq2.dll

@@ -1,0 +1,15 @@
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\lINQ\bin\Debug\net10.0\lINQ.exe
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\lINQ\bin\Debug\net10.0\lINQ.deps.json
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\lINQ\bin\Debug\net10.0\lINQ.runtimeconfig.json
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\lINQ\bin\Debug\net10.0\lINQ.dll
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\lINQ\bin\Debug\net10.0\lINQ.pdb
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\lINQ\obj\Debug\net10.0\lINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\lINQ\obj\Debug\net10.0\lINQ.AssemblyInfoInputs.cache
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\lINQ\obj\Debug\net10.0\lINQ.AssemblyInfo.cs
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\lINQ\obj\Debug\net10.0\lINQ.csproj.CoreCompileInputs.cache
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\lINQ\obj\Debug\net10.0\lINQ.sourcelink.json
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\lINQ\obj\Debug\net10.0\lINQ.dll
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\lINQ\obj\Debug\net10.0\refint\lINQ.dll
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\lINQ\obj\Debug\net10.0\lINQ.pdb
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\lINQ\obj\Debug\net10.0\lINQ.genruntimeconfig.cache
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Linq\lINQ\obj\Debug\net10.0\ref\lINQ.dll

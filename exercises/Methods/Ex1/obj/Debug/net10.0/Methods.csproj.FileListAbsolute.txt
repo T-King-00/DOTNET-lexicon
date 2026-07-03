@@ -1,0 +1,15 @@
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Methods\Methods\bin\Debug\net10.0\Methods.exe
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Methods\Methods\bin\Debug\net10.0\Methods.deps.json
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Methods\Methods\bin\Debug\net10.0\Methods.runtimeconfig.json
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Methods\Methods\bin\Debug\net10.0\Methods.dll
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Methods\Methods\bin\Debug\net10.0\Methods.pdb
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Methods\Methods\obj\Debug\net10.0\Methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Methods\Methods\obj\Debug\net10.0\Methods.AssemblyInfoInputs.cache
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Methods\Methods\obj\Debug\net10.0\Methods.AssemblyInfo.cs
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Methods\Methods\obj\Debug\net10.0\Methods.csproj.CoreCompileInputs.cache
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Methods\Methods\obj\Debug\net10.0\Methods.sourcelink.json
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Methods\Methods\obj\Debug\net10.0\Methods.dll
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Methods\Methods\obj\Debug\net10.0\refint\Methods.dll
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Methods\Methods\obj\Debug\net10.0\Methods.pdb
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Methods\Methods\obj\Debug\net10.0\Methods.genruntimeconfig.cache
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\Methods\Methods\obj\Debug\net10.0\ref\Methods.dll

@@ -1,0 +1,15 @@
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\ClassAndObjects\bin\Debug\net10.0\ClassAndObjects.exe
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\ClassAndObjects\bin\Debug\net10.0\ClassAndObjects.deps.json
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\ClassAndObjects\bin\Debug\net10.0\ClassAndObjects.runtimeconfig.json
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\ClassAndObjects\bin\Debug\net10.0\ClassAndObjects.dll
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\ClassAndObjects\bin\Debug\net10.0\ClassAndObjects.pdb
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\ClassAndObjects\obj\Debug\net10.0\ClassAndObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\ClassAndObjects\obj\Debug\net10.0\ClassAndObjects.AssemblyInfoInputs.cache
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\ClassAndObjects\obj\Debug\net10.0\ClassAndObjects.AssemblyInfo.cs
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\ClassAndObjects\obj\Debug\net10.0\ClassAndObjects.csproj.CoreCompileInputs.cache
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\ClassAndObjects\obj\Debug\net10.0\ClassAndObjects.sourcelink.json
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\ClassAndObjects\obj\Debug\net10.0\ClassAndObjects.dll
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\ClassAndObjects\obj\Debug\net10.0\refint\ClassAndObjects.dll
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\ClassAndObjects\obj\Debug\net10.0\ClassAndObjects.pdb
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\ClassAndObjects\obj\Debug\net10.0\ClassAndObjects.genruntimeconfig.cache
+C:\Users\tony_\OneDrive - BTH Student\lexicon .NET\exercises\ExcercisesCode\ClassAndObjects\obj\Debug\net10.0\ref\ClassAndObjects.dll
