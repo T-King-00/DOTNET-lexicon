@@ -1,0 +1,33 @@
+﻿#section5-experience{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    h2{
+        margin-top: 3rem;
+    }
+    ul{
+        margin-left: 2rem;
+    }
+    li {
+        margin-bottom: 0.2rem;
+        h3 {
+            margin-bottom: -0.2rem;
+        }
+    }
+}
+
+@media (max-width: 640px) {
+
+    #section3-projects {
+        padding: 1rem;
+    }
+    ul{
+        margin-left: -4rem;
+        list-style-type: upper-roman;
+        margin-bottom: 0.2rem;
+    }
+    li{
+        margin-left: -3rem;
+        margin-bottom: 0.2rem;
+    }
+
+}

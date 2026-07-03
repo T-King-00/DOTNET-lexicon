@@ -1,0 +1,61 @@
+.header-container {
+    background-color: var(--color-header);
+    display: flex;
+    justify-content: center;
+}
+
+.header-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 0.8rem;
+    margin: 0;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.header-list-item {
+    margin: 0;
+}
+
+.social-link {
+    display: grid;
+    place-items: center;
+    width: 4rem;
+    height: 4rem;
+    border: 0.4rem solid var(--color-border);
+    border-radius: 50%;
+    
+    background-color: var(--color-surface);
+    color: var(--color-social-icon);
+    text-decoration: none;
+}
+
+.social-link:hover {
+    color: var(--color-accent-hover);
+    background-color: var(--color-surface-2);
+}
+
+.social-icon {
+    display: block;
+    width: 3.2rem;
+    height: 3.2rem;
+    background-color: var(--color-social-icon);
+    mask-position: center;
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+}
+
+.linkedin-icon {
+    mask-image: url("../../assets/linkedin-svgrepo-com.svg");
+    -webkit-mask-image: url("../../assets/linkedin-svgrepo-com.svg");
+}
+
+.github-icon {
+    mask-image: url("../../assets/github-svgrepo-com.svg");
+    -webkit-mask-image: url("../../assets/github-svgrepo-com.svg");
+}

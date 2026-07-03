@@ -1,0 +1,35 @@
+:root {
+  --page-bg: #f4f7fb;
+  --page-text: #162033;
+  --page-border: #c9d5e4;
+
+  font-family: Inter, Roboto, system-ui, 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: var(--page-text);
+  background-color: var(--page-bg);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-size: 62.5%;
+  background: #0b1220;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Roboto, system-ui, 'Segoe UI', sans-serif;
+  font-size: 1.7rem;
+  line-height: 1.6;
+  background-color: var(--page-bg);
+  color: var(--page-text);
+}
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  border-inline: 1% solid var(--page-border);
+  min-height: 100svh;
+  box-sizing: border-box;
+}

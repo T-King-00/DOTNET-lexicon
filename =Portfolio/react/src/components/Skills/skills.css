@@ -1,0 +1,15 @@
+﻿#section2-skills{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+    ul{
+        margin-left: 2rem;
+        list-style-type: upper-roman;
+        margin-bottom: 0.2rem;
+    }
+    li{
+
+        padding: 1rem;
+        margin-bottom: 0.2rem;
+    }
+}

@@ -1,0 +1,143 @@
+﻿:root {
+    /* Main page background.
+       Use for the body/background of the whole website. */
+    --bg: #F9FAFB;
+
+    /* Card and section background.
+       Use for project cards, experience boxes, contact forms, and navbar if needed. */
+    --card: #c5a8a8;
+
+    /* Main text color.
+       Use for headings, names, job titles, and important text. */
+    --text: #124dd1;
+
+    /* Secondary text color.
+       Use for descriptions, dates, subtitles, small text, and less important details. */
+    --muted: #6B7280;
+
+    /* Primary brand color.
+       Use for main buttons, active navigation links, important icons, and key highlights. */
+    --primary: #6d7287;
+
+    /* Primary hover color.
+       Use when the user hovers over buttons, links, or clickable primary elements. */
+    --primary-hover: #083cc5;
+
+    /* Accent color.
+       Use for small highlights, skill tags, success indicators, icons, and subtle decorative details. */
+    --accent: #10B981;
+
+    /* Border color.
+       Use for card borders, input borders, dividers, and section separators. */
+    --border: #E5E7EB;
+}
+
+@media (orientation: portrait) and (min-height: 50px) {
+    
+    /* ----------------Global styles --------------- */
+    * {
+        margin: auto;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+
+    body {
+        font-family:  Inter ,Roboto, sans-serif;
+        font-size: 1.4rem;
+        line-height: 1.6;
+        background: var(--bg);
+        color: var(--text);
+
+    }
+
+    body ::selection {
+        background: var(--primary);
+        color: var(--card);
+    }
+
+    header {
+        display: flex;
+        background: var(--card);
+        padding: 2rem;
+        color: var(--text);
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+
+  
+
+    /*------------------------------------------------*/
+    .nav-items-list {
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto;
+        list-style-type: none;
+    }
+
+
+    #sections-container {
+        background: #b7bccc;
+    }
+
+    .section {
+        display: block;
+        padding: 3rem;
+        color: var(--text);
+
+        div {
+            padding: 1.5rem;
+        }
+
+        h2 {
+            padding: 1rem;
+            font-size: 2.2rem;
+            font-weight: 700;
+        }
+    }
+
+    .section:nth-child(even) {
+        background: #b7bccc;
+    }
+
+    .section:nth-child(odd) {
+        background: #bee3b1;
+    }
+
+
+    #section1-about {
+        p:first-of-type {
+            background: hsl(107 17% 84%);
+            box-sizing: border-box;
+            display: block;
+            padding: 2rem;
+            color: var(--text);
+        }
+
+        p:first-of-type:first-letter {
+            font-size: 3.5rem;
+            font-weight: 700;
+            float: left;
+            line-height: 1;
+            margin-right: 0.8rem;
+        }
+    }
+
+
+    #asideSection1 {
+        background: #086a76;
+        margin: auto;
+        color: var(--card);
+        width: fit-content;
+        padding: 2rem;
+    }
+
+    .skills-list > li {
+        list-style-type: none;
+        padding: 1rem;
+        font-size: 1.4rem;
+        color: var(--text);
+        font-weight: 500;
+    }
+}

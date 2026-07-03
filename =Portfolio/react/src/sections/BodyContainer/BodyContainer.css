@@ -1,0 +1,36 @@
+#body-container {
+    flex: 1;
+    min-width: 0;
+    background-color: var(--color-surface);
+    color: var(--color-text);
+    margin: 0;
+    padding: 4rem;
+}
+
+.section{
+    width: 100%;
+}
+@media (max-width: 640px) {
+ 
+    #body-container {
+        padding: 1rem;
+        margin-left: 0rem !important;
+    }
+    
+    .section{
+        padding: 1rem;
+        margin-left: -1rem !important;
+        ul{
+            margin-left: -4rem;
+            list-style-type: upper-roman;
+            margin-bottom: 0.2rem;
+        }
+        li{
+            margin-left: -4rem;
+            margin-bottom: 0.2rem;
+        }
+    }
+
+  
+    
+}
