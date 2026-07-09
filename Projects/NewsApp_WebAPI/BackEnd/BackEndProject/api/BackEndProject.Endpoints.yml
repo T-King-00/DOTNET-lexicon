@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: BackEndProject.Endpoints
+  commentId: N:BackEndProject.Endpoints
+  id: BackEndProject.Endpoints
+  children:
+  - BackEndProject.Endpoints.NewsClientEndPointsV1
+  langs:
+  - csharp
+  - vb
+  name: BackEndProject.Endpoints
+  nameWithType: BackEndProject.Endpoints
+  fullName: BackEndProject.Endpoints
+  type: Namespace
+  assemblies:
+  - BackEndProject
+references:
+- uid: BackEndProject.Endpoints.NewsClientEndPointsV1
+  commentId: T:BackEndProject.Endpoints.NewsClientEndPointsV1
+  href: BackEndProject.Endpoints.NewsClientEndPointsV1.html
+  name: NewsClientEndPointsV1
+  nameWithType: NewsClientEndPointsV1
+  fullName: BackEndProject.Endpoints.NewsClientEndPointsV1

@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: BackEndProject.Models
+  commentId: N:BackEndProject.Models
+  id: BackEndProject.Models
+  children:
+  - BackEndProject.Models.NewsResponse
+  - BackEndProject.Models.NewsSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: BackEndProject.Models
+  nameWithType: BackEndProject.Models
+  fullName: BackEndProject.Models
+  type: Namespace
+  assemblies:
+  - BackEndProject
+references:
+- uid: BackEndProject.Models.NewsResponse
+  commentId: T:BackEndProject.Models.NewsResponse
+  href: BackEndProject.Models.NewsResponse.html
+  name: NewsResponse
+  nameWithType: NewsResponse
+  fullName: BackEndProject.Models.NewsResponse
+- uid: BackEndProject.Models.NewsSearchRequest
+  commentId: T:BackEndProject.Models.NewsSearchRequest
+  href: BackEndProject.Models.NewsSearchRequest.html
+  name: NewsSearchRequest
+  nameWithType: NewsSearchRequest
+  fullName: BackEndProject.Models.NewsSearchRequest

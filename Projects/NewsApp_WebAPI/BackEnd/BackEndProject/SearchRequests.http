@@ -1,0 +1,52 @@
+### News root
+GET https://localhost:7773/api/v1/news
+
+###
+
+### SearchAPI - defaults only returns =>  "message": "Required parameters are missing. Please set any of the following parameters and try again: sources, q, language, country, category."
+GET https://localhost:7773/api/v1/news/search
+
+###
+
+### SearchAPI - only category => works
+GET https://localhost:7773/api/v1/news/search?category=Technology
+
+###
+
+### SearchAPI - only language => works
+GET https://localhost:7773/api/v1/news/search?language=EN
+
+###
+
+### SearchAPI - only country => works
+GET https://localhost:7773/api/v1/news/search?country=US
+
+###
+
+### SearchAPI - language, country, category
+GET https://localhost:7773/api/v1/news/search?language=EN&country=US&category=Technology
+
+###
+
+### SearchAPI - query text with category
+GET https://localhost:7773/api/v1/news/search?query=technology&category=Technology
+
+###
+
+### SearchAPI - paging and sort
+GET https://localhost:7773/api/v1/news/search?language=EN&country=US&page=1&pageSize=5&sortBy=publishedAt
+
+###
+
+### SearchAPI - title keyword
+GET https://localhost:7773/api/v1/news/search?qInTitle=ai&language=EN&country=US
+
+###
+
+### SearchAPI - domains
+GET https://localhost:7773/api/v1/news/search?domains=techcrunch.com&domains=theverge.com&language=EN
+
+###
+
+### SearchAPI - sources
+GET https://localhost:7773/api/v1/news/search?sources=bbc-news&sources=the-verge&language=EN

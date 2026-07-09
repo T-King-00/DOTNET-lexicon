@@ -1,0 +1,1134 @@
+### YamlMime:ManagedReference
+items:
+- uid: BackEndProject.Models.NewsSearchRequest
+  commentId: T:BackEndProject.Models.NewsSearchRequest
+  id: NewsSearchRequest
+  parent: BackEndProject.Models
+  children:
+  - BackEndProject.Models.NewsSearchRequest.Category
+  - BackEndProject.Models.NewsSearchRequest.Country
+  - BackEndProject.Models.NewsSearchRequest.Domains
+  - BackEndProject.Models.NewsSearchRequest.ExcludeDomains
+  - BackEndProject.Models.NewsSearchRequest.ExcludeSources
+  - BackEndProject.Models.NewsSearchRequest.From
+  - BackEndProject.Models.NewsSearchRequest.KeyWords
+  - BackEndProject.Models.NewsSearchRequest.Language
+  - BackEndProject.Models.NewsSearchRequest.Page
+  - BackEndProject.Models.NewsSearchRequest.PageSize
+  - BackEndProject.Models.NewsSearchRequest.Query
+  - BackEndProject.Models.NewsSearchRequest.SearchIn
+  - BackEndProject.Models.NewsSearchRequest.SortBy
+  - BackEndProject.Models.NewsSearchRequest.Sources
+  - BackEndProject.Models.NewsSearchRequest.To
+  langs:
+  - csharp
+  - vb
+  name: NewsSearchRequest
+  nameWithType: NewsSearchRequest
+  fullName: BackEndProject.Models.NewsSearchRequest
+  type: Class
+  source:
+    id: NewsSearchRequest
+    path: E:\Projects2\NewsWebApp\BackEndSolution\BackEndProject\Models\NewsSearchRequest.cs
+    startLine: 12
+  assemblies:
+  - BackEndProject
+  namespace: BackEndProject.Models
+  summary: >-
+    Class <code> NewsSearchRequest </code> is used to collect all the query parameters.
+
+    This class acts as a model for the request parameters
+
+    instead of writing all query variables as parameters in the endpoint.
+  example: []
+  syntax:
+    content: public class NewsSearchRequest
+    content.vb: Public Class NewsSearchRequest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: BackEndProject.Models.NewsSearchRequest.Query
+  commentId: P:BackEndProject.Models.NewsSearchRequest.Query
+  id: Query
+  parent: BackEndProject.Models.NewsSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: Query
+  nameWithType: NewsSearchRequest.Query
+  fullName: BackEndProject.Models.NewsSearchRequest.Query
+  type: Property
+  source:
+    id: Query
+    path: E:\Projects2\NewsWebApp\BackEndSolution\BackEndProject\Models\NewsSearchRequest.cs
+    startLine: 20
+  assemblies:
+  - BackEndProject
+  namespace: BackEndProject.Models
+  summary: >-
+    Variables describe the query parameters.
+
+    The query parameters are used to filter the news articles.
+
+    The query parameters are optional.
+  example: []
+  syntax:
+    content: >-
+      [FromQuery(Name = "query")]
+
+      public string? Query { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <FromQuery(Name:="query")>
+
+      Public Property Query As String
+  overload: BackEndProject.Models.NewsSearchRequest.Query*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.FromQueryAttribute
+    ctor: Microsoft.AspNetCore.Mvc.FromQueryAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: query
+- uid: BackEndProject.Models.NewsSearchRequest.From
+  commentId: P:BackEndProject.Models.NewsSearchRequest.From
+  id: From
+  parent: BackEndProject.Models.NewsSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: From
+  nameWithType: NewsSearchRequest.From
+  fullName: BackEndProject.Models.NewsSearchRequest.From
+  type: Property
+  source:
+    id: From
+    path: E:\Projects2\NewsWebApp\BackEndSolution\BackEndProject\Models\NewsSearchRequest.cs
+    startLine: 23
+  assemblies:
+  - BackEndProject
+  namespace: BackEndProject.Models
+  syntax:
+    content: >-
+      [FromQuery(Name = "from")]
+
+      public int? From { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <FromQuery(Name:="from")>
+
+      Public Property From As Integer?
+  overload: BackEndProject.Models.NewsSearchRequest.From*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.FromQueryAttribute
+    ctor: Microsoft.AspNetCore.Mvc.FromQueryAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: from
+- uid: BackEndProject.Models.NewsSearchRequest.To
+  commentId: P:BackEndProject.Models.NewsSearchRequest.To
+  id: To
+  parent: BackEndProject.Models.NewsSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: To
+  nameWithType: NewsSearchRequest.To
+  fullName: BackEndProject.Models.NewsSearchRequest.To
+  type: Property
+  source:
+    id: To
+    path: E:\Projects2\NewsWebApp\BackEndSolution\BackEndProject\Models\NewsSearchRequest.cs
+    startLine: 25
+  assemblies:
+  - BackEndProject
+  namespace: BackEndProject.Models
+  syntax:
+    content: >-
+      [FromQuery(Name = "to")]
+
+      public int? To { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <FromQuery(Name:="to")>
+
+      Public Property [To] As Integer?
+  overload: BackEndProject.Models.NewsSearchRequest.To*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.FromQueryAttribute
+    ctor: Microsoft.AspNetCore.Mvc.FromQueryAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: to
+- uid: BackEndProject.Models.NewsSearchRequest.Language
+  commentId: P:BackEndProject.Models.NewsSearchRequest.Language
+  id: Language
+  parent: BackEndProject.Models.NewsSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: NewsSearchRequest.Language
+  fullName: BackEndProject.Models.NewsSearchRequest.Language
+  type: Property
+  source:
+    id: Language
+    path: E:\Projects2\NewsWebApp\BackEndSolution\BackEndProject\Models\NewsSearchRequest.cs
+    startLine: 28
+  assemblies:
+  - BackEndProject
+  namespace: BackEndProject.Models
+  syntax:
+    content: >-
+      [FromQuery(Name = "language")]
+
+      public Languages? Language { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{NewsAPI.Constants.Languages}
+    content.vb: >-
+      <FromQuery(Name:="language")>
+
+      Public Property Language As Languages?
+  overload: BackEndProject.Models.NewsSearchRequest.Language*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.FromQueryAttribute
+    ctor: Microsoft.AspNetCore.Mvc.FromQueryAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: language
+- uid: BackEndProject.Models.NewsSearchRequest.Country
+  commentId: P:BackEndProject.Models.NewsSearchRequest.Country
+  id: Country
+  parent: BackEndProject.Models.NewsSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: Country
+  nameWithType: NewsSearchRequest.Country
+  fullName: BackEndProject.Models.NewsSearchRequest.Country
+  type: Property
+  source:
+    id: Country
+    path: E:\Projects2\NewsWebApp\BackEndSolution\BackEndProject\Models\NewsSearchRequest.cs
+    startLine: 31
+  assemblies:
+  - BackEndProject
+  namespace: BackEndProject.Models
+  syntax:
+    content: >-
+      [FromQuery(Name = "country")]
+
+      public Countries? Country { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{NewsAPI.Constants.Countries}
+    content.vb: >-
+      <FromQuery(Name:="country")>
+
+      Public Property Country As Countries?
+  overload: BackEndProject.Models.NewsSearchRequest.Country*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.FromQueryAttribute
+    ctor: Microsoft.AspNetCore.Mvc.FromQueryAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: country
+- uid: BackEndProject.Models.NewsSearchRequest.Category
+  commentId: P:BackEndProject.Models.NewsSearchRequest.Category
+  id: Category
+  parent: BackEndProject.Models.NewsSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: NewsSearchRequest.Category
+  fullName: BackEndProject.Models.NewsSearchRequest.Category
+  type: Property
+  source:
+    id: Category
+    path: E:\Projects2\NewsWebApp\BackEndSolution\BackEndProject\Models\NewsSearchRequest.cs
+    startLine: 33
+  assemblies:
+  - BackEndProject
+  namespace: BackEndProject.Models
+  syntax:
+    content: >-
+      [FromQuery(Name = "category")]
+
+      public Categories? Category { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{NewsAPI.Constants.Categories}
+    content.vb: >-
+      <FromQuery(Name:="category")>
+
+      Public Property Category As Categories?
+  overload: BackEndProject.Models.NewsSearchRequest.Category*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.FromQueryAttribute
+    ctor: Microsoft.AspNetCore.Mvc.FromQueryAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: category
+- uid: BackEndProject.Models.NewsSearchRequest.KeyWords
+  commentId: P:BackEndProject.Models.NewsSearchRequest.KeyWords
+  id: KeyWords
+  parent: BackEndProject.Models.NewsSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: KeyWords
+  nameWithType: NewsSearchRequest.KeyWords
+  fullName: BackEndProject.Models.NewsSearchRequest.KeyWords
+  type: Property
+  source:
+    id: KeyWords
+    path: E:\Projects2\NewsWebApp\BackEndSolution\BackEndProject\Models\NewsSearchRequest.cs
+    startLine: 37
+  assemblies:
+  - BackEndProject
+  namespace: BackEndProject.Models
+  syntax:
+    content: >-
+      [FromQuery(Name = "qInTitle")]
+
+      public string? KeyWords { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <FromQuery(Name:="qInTitle")>
+
+      Public Property KeyWords As String
+  overload: BackEndProject.Models.NewsSearchRequest.KeyWords*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.FromQueryAttribute
+    ctor: Microsoft.AspNetCore.Mvc.FromQueryAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: qInTitle
+- uid: BackEndProject.Models.NewsSearchRequest.SearchIn
+  commentId: P:BackEndProject.Models.NewsSearchRequest.SearchIn
+  id: SearchIn
+  parent: BackEndProject.Models.NewsSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: SearchIn
+  nameWithType: NewsSearchRequest.SearchIn
+  fullName: BackEndProject.Models.NewsSearchRequest.SearchIn
+  type: Property
+  source:
+    id: SearchIn
+    path: E:\Projects2\NewsWebApp\BackEndSolution\BackEndProject\Models\NewsSearchRequest.cs
+    startLine: 40
+  assemblies:
+  - BackEndProject
+  namespace: BackEndProject.Models
+  syntax:
+    content: >-
+      [FromQuery(Name = "searchIn")]
+
+      public string? SearchIn { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <FromQuery(Name:="searchIn")>
+
+      Public Property SearchIn As String
+  overload: BackEndProject.Models.NewsSearchRequest.SearchIn*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.FromQueryAttribute
+    ctor: Microsoft.AspNetCore.Mvc.FromQueryAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: searchIn
+- uid: BackEndProject.Models.NewsSearchRequest.Domains
+  commentId: P:BackEndProject.Models.NewsSearchRequest.Domains
+  id: Domains
+  parent: BackEndProject.Models.NewsSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: Domains
+  nameWithType: NewsSearchRequest.Domains
+  fullName: BackEndProject.Models.NewsSearchRequest.Domains
+  type: Property
+  source:
+    id: Domains
+    path: E:\Projects2\NewsWebApp\BackEndSolution\BackEndProject\Models\NewsSearchRequest.cs
+    startLine: 43
+  assemblies:
+  - BackEndProject
+  namespace: BackEndProject.Models
+  syntax:
+    content: >-
+      [FromQuery(Name = "domains")]
+
+      public string[]? Domains { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: >-
+      <FromQuery(Name:="domains")>
+
+      Public Property Domains As String()
+  overload: BackEndProject.Models.NewsSearchRequest.Domains*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.FromQueryAttribute
+    ctor: Microsoft.AspNetCore.Mvc.FromQueryAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: domains
+- uid: BackEndProject.Models.NewsSearchRequest.ExcludeDomains
+  commentId: P:BackEndProject.Models.NewsSearchRequest.ExcludeDomains
+  id: ExcludeDomains
+  parent: BackEndProject.Models.NewsSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: ExcludeDomains
+  nameWithType: NewsSearchRequest.ExcludeDomains
+  fullName: BackEndProject.Models.NewsSearchRequest.ExcludeDomains
+  type: Property
+  source:
+    id: ExcludeDomains
+    path: E:\Projects2\NewsWebApp\BackEndSolution\BackEndProject\Models\NewsSearchRequest.cs
+    startLine: 45
+  assemblies:
+  - BackEndProject
+  namespace: BackEndProject.Models
+  syntax:
+    content: >-
+      [FromQuery(Name = "excludeDomains")]
+
+      public string[]? ExcludeDomains { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: >-
+      <FromQuery(Name:="excludeDomains")>
+
+      Public Property ExcludeDomains As String()
+  overload: BackEndProject.Models.NewsSearchRequest.ExcludeDomains*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.FromQueryAttribute
+    ctor: Microsoft.AspNetCore.Mvc.FromQueryAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: excludeDomains
+- uid: BackEndProject.Models.NewsSearchRequest.Sources
+  commentId: P:BackEndProject.Models.NewsSearchRequest.Sources
+  id: Sources
+  parent: BackEndProject.Models.NewsSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: Sources
+  nameWithType: NewsSearchRequest.Sources
+  fullName: BackEndProject.Models.NewsSearchRequest.Sources
+  type: Property
+  source:
+    id: Sources
+    path: E:\Projects2\NewsWebApp\BackEndSolution\BackEndProject\Models\NewsSearchRequest.cs
+    startLine: 47
+  assemblies:
+  - BackEndProject
+  namespace: BackEndProject.Models
+  syntax:
+    content: >-
+      [FromQuery(Name = "sources")]
+
+      public string[]? Sources { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: >-
+      <FromQuery(Name:="sources")>
+
+      Public Property Sources As String()
+  overload: BackEndProject.Models.NewsSearchRequest.Sources*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.FromQueryAttribute
+    ctor: Microsoft.AspNetCore.Mvc.FromQueryAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: sources
+- uid: BackEndProject.Models.NewsSearchRequest.ExcludeSources
+  commentId: P:BackEndProject.Models.NewsSearchRequest.ExcludeSources
+  id: ExcludeSources
+  parent: BackEndProject.Models.NewsSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: ExcludeSources
+  nameWithType: NewsSearchRequest.ExcludeSources
+  fullName: BackEndProject.Models.NewsSearchRequest.ExcludeSources
+  type: Property
+  source:
+    id: ExcludeSources
+    path: E:\Projects2\NewsWebApp\BackEndSolution\BackEndProject\Models\NewsSearchRequest.cs
+    startLine: 49
+  assemblies:
+  - BackEndProject
+  namespace: BackEndProject.Models
+  syntax:
+    content: >-
+      [FromQuery(Name = "excludeSources")]
+
+      public string[]? ExcludeSources { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: >-
+      <FromQuery(Name:="excludeSources")>
+
+      Public Property ExcludeSources As String()
+  overload: BackEndProject.Models.NewsSearchRequest.ExcludeSources*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.FromQueryAttribute
+    ctor: Microsoft.AspNetCore.Mvc.FromQueryAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: excludeSources
+- uid: BackEndProject.Models.NewsSearchRequest.SortBy
+  commentId: P:BackEndProject.Models.NewsSearchRequest.SortBy
+  id: SortBy
+  parent: BackEndProject.Models.NewsSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: SortBy
+  nameWithType: NewsSearchRequest.SortBy
+  fullName: BackEndProject.Models.NewsSearchRequest.SortBy
+  type: Property
+  source:
+    id: SortBy
+    path: E:\Projects2\NewsWebApp\BackEndSolution\BackEndProject\Models\NewsSearchRequest.cs
+    startLine: 52
+  assemblies:
+  - BackEndProject
+  namespace: BackEndProject.Models
+  syntax:
+    content: >-
+      [FromQuery(Name = "sortBy")]
+
+      public string? SortBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <FromQuery(Name:="sortBy")>
+
+      Public Property SortBy As String
+  overload: BackEndProject.Models.NewsSearchRequest.SortBy*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.FromQueryAttribute
+    ctor: Microsoft.AspNetCore.Mvc.FromQueryAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: sortBy
+- uid: BackEndProject.Models.NewsSearchRequest.Page
+  commentId: P:BackEndProject.Models.NewsSearchRequest.Page
+  id: Page
+  parent: BackEndProject.Models.NewsSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: Page
+  nameWithType: NewsSearchRequest.Page
+  fullName: BackEndProject.Models.NewsSearchRequest.Page
+  type: Property
+  source:
+    id: Page
+    path: E:\Projects2\NewsWebApp\BackEndSolution\BackEndProject\Models\NewsSearchRequest.cs
+    startLine: 55
+  assemblies:
+  - BackEndProject
+  namespace: BackEndProject.Models
+  syntax:
+    content: >-
+      [FromQuery(Name = "page")]
+
+      public int? Page { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <FromQuery(Name:="page")>
+
+      Public Property Page As Integer?
+  overload: BackEndProject.Models.NewsSearchRequest.Page*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.FromQueryAttribute
+    ctor: Microsoft.AspNetCore.Mvc.FromQueryAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: page
+- uid: BackEndProject.Models.NewsSearchRequest.PageSize
+  commentId: P:BackEndProject.Models.NewsSearchRequest.PageSize
+  id: PageSize
+  parent: BackEndProject.Models.NewsSearchRequest
+  langs:
+  - csharp
+  - vb
+  name: PageSize
+  nameWithType: NewsSearchRequest.PageSize
+  fullName: BackEndProject.Models.NewsSearchRequest.PageSize
+  type: Property
+  source:
+    id: PageSize
+    path: E:\Projects2\NewsWebApp\BackEndSolution\BackEndProject\Models\NewsSearchRequest.cs
+    startLine: 58
+  assemblies:
+  - BackEndProject
+  namespace: BackEndProject.Models
+  syntax:
+    content: >-
+      [FromQuery(Name = "pageSize")]
+
+      public int? PageSize { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: >-
+      <FromQuery(Name:="pageSize")>
+
+      Public Property PageSize As Integer?
+  overload: BackEndProject.Models.NewsSearchRequest.PageSize*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.FromQueryAttribute
+    ctor: Microsoft.AspNetCore.Mvc.FromQueryAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: pageSize
+references:
+- uid: BackEndProject.Models
+  commentId: N:BackEndProject.Models
+  href: BackEndProject.html
+  name: BackEndProject.Models
+  nameWithType: BackEndProject.Models
+  fullName: BackEndProject.Models
+  spec.csharp:
+  - uid: BackEndProject
+    name: BackEndProject
+    href: BackEndProject.html
+  - name: .
+  - uid: BackEndProject.Models
+    name: Models
+    href: BackEndProject.Models.html
+  spec.vb:
+  - uid: BackEndProject
+    name: BackEndProject
+    href: BackEndProject.html
+  - name: .
+  - uid: BackEndProject.Models
+    name: Models
+    href: BackEndProject.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BackEndProject.Models.NewsSearchRequest.Query*
+  commentId: Overload:BackEndProject.Models.NewsSearchRequest.Query
+  href: BackEndProject.Models.NewsSearchRequest.html#BackEndProject_Models_NewsSearchRequest_Query
+  name: Query
+  nameWithType: NewsSearchRequest.Query
+  fullName: BackEndProject.Models.NewsSearchRequest.Query
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: BackEndProject.Models.NewsSearchRequest.From*
+  commentId: Overload:BackEndProject.Models.NewsSearchRequest.From
+  href: BackEndProject.Models.NewsSearchRequest.html#BackEndProject_Models_NewsSearchRequest_From
+  name: From
+  nameWithType: NewsSearchRequest.From
+  fullName: BackEndProject.Models.NewsSearchRequest.From
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: BackEndProject.Models.NewsSearchRequest.To*
+  commentId: Overload:BackEndProject.Models.NewsSearchRequest.To
+  href: BackEndProject.Models.NewsSearchRequest.html#BackEndProject_Models_NewsSearchRequest_To
+  name: To
+  nameWithType: NewsSearchRequest.To
+  fullName: BackEndProject.Models.NewsSearchRequest.To
+- uid: BackEndProject.Models.NewsSearchRequest.Language*
+  commentId: Overload:BackEndProject.Models.NewsSearchRequest.Language
+  href: BackEndProject.Models.NewsSearchRequest.html#BackEndProject_Models_NewsSearchRequest_Language
+  name: Language
+  nameWithType: NewsSearchRequest.Language
+  fullName: BackEndProject.Models.NewsSearchRequest.Language
+- uid: System.Nullable{NewsAPI.Constants.Languages}
+  commentId: T:System.Nullable{NewsAPI.Constants.Languages}
+  parent: System
+  definition: System.Nullable`1
+  name: Languages?
+  nameWithType: Languages?
+  fullName: NewsAPI.Constants.Languages?
+  spec.csharp:
+  - uid: NewsAPI.Constants.Languages
+    name: Languages
+    isExternal: true
+  - name: '?'
+  spec.vb:
+  - uid: NewsAPI.Constants.Languages
+    name: Languages
+    isExternal: true
+  - name: '?'
+- uid: BackEndProject.Models.NewsSearchRequest.Country*
+  commentId: Overload:BackEndProject.Models.NewsSearchRequest.Country
+  href: BackEndProject.Models.NewsSearchRequest.html#BackEndProject_Models_NewsSearchRequest_Country
+  name: Country
+  nameWithType: NewsSearchRequest.Country
+  fullName: BackEndProject.Models.NewsSearchRequest.Country
+- uid: System.Nullable{NewsAPI.Constants.Countries}
+  commentId: T:System.Nullable{NewsAPI.Constants.Countries}
+  parent: System
+  definition: System.Nullable`1
+  name: Countries?
+  nameWithType: Countries?
+  fullName: NewsAPI.Constants.Countries?
+  spec.csharp:
+  - uid: NewsAPI.Constants.Countries
+    name: Countries
+    isExternal: true
+  - name: '?'
+  spec.vb:
+  - uid: NewsAPI.Constants.Countries
+    name: Countries
+    isExternal: true
+  - name: '?'
+- uid: BackEndProject.Models.NewsSearchRequest.Category*
+  commentId: Overload:BackEndProject.Models.NewsSearchRequest.Category
+  href: BackEndProject.Models.NewsSearchRequest.html#BackEndProject_Models_NewsSearchRequest_Category
+  name: Category
+  nameWithType: NewsSearchRequest.Category
+  fullName: BackEndProject.Models.NewsSearchRequest.Category
+- uid: System.Nullable{NewsAPI.Constants.Categories}
+  commentId: T:System.Nullable{NewsAPI.Constants.Categories}
+  parent: System
+  definition: System.Nullable`1
+  name: Categories?
+  nameWithType: Categories?
+  fullName: NewsAPI.Constants.Categories?
+  spec.csharp:
+  - uid: NewsAPI.Constants.Categories
+    name: Categories
+    isExternal: true
+  - name: '?'
+  spec.vb:
+  - uid: NewsAPI.Constants.Categories
+    name: Categories
+    isExternal: true
+  - name: '?'
+- uid: BackEndProject.Models.NewsSearchRequest.KeyWords*
+  commentId: Overload:BackEndProject.Models.NewsSearchRequest.KeyWords
+  href: BackEndProject.Models.NewsSearchRequest.html#BackEndProject_Models_NewsSearchRequest_KeyWords
+  name: KeyWords
+  nameWithType: NewsSearchRequest.KeyWords
+  fullName: BackEndProject.Models.NewsSearchRequest.KeyWords
+- uid: BackEndProject.Models.NewsSearchRequest.SearchIn*
+  commentId: Overload:BackEndProject.Models.NewsSearchRequest.SearchIn
+  href: BackEndProject.Models.NewsSearchRequest.html#BackEndProject_Models_NewsSearchRequest_SearchIn
+  name: SearchIn
+  nameWithType: NewsSearchRequest.SearchIn
+  fullName: BackEndProject.Models.NewsSearchRequest.SearchIn
+- uid: BackEndProject.Models.NewsSearchRequest.Domains*
+  commentId: Overload:BackEndProject.Models.NewsSearchRequest.Domains
+  href: BackEndProject.Models.NewsSearchRequest.html#BackEndProject_Models_NewsSearchRequest_Domains
+  name: Domains
+  nameWithType: NewsSearchRequest.Domains
+  fullName: BackEndProject.Models.NewsSearchRequest.Domains
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: BackEndProject.Models.NewsSearchRequest.ExcludeDomains*
+  commentId: Overload:BackEndProject.Models.NewsSearchRequest.ExcludeDomains
+  href: BackEndProject.Models.NewsSearchRequest.html#BackEndProject_Models_NewsSearchRequest_ExcludeDomains
+  name: ExcludeDomains
+  nameWithType: NewsSearchRequest.ExcludeDomains
+  fullName: BackEndProject.Models.NewsSearchRequest.ExcludeDomains
+- uid: BackEndProject.Models.NewsSearchRequest.Sources*
+  commentId: Overload:BackEndProject.Models.NewsSearchRequest.Sources
+  href: BackEndProject.Models.NewsSearchRequest.html#BackEndProject_Models_NewsSearchRequest_Sources
+  name: Sources
+  nameWithType: NewsSearchRequest.Sources
+  fullName: BackEndProject.Models.NewsSearchRequest.Sources
+- uid: BackEndProject.Models.NewsSearchRequest.ExcludeSources*
+  commentId: Overload:BackEndProject.Models.NewsSearchRequest.ExcludeSources
+  href: BackEndProject.Models.NewsSearchRequest.html#BackEndProject_Models_NewsSearchRequest_ExcludeSources
+  name: ExcludeSources
+  nameWithType: NewsSearchRequest.ExcludeSources
+  fullName: BackEndProject.Models.NewsSearchRequest.ExcludeSources
+- uid: BackEndProject.Models.NewsSearchRequest.SortBy*
+  commentId: Overload:BackEndProject.Models.NewsSearchRequest.SortBy
+  href: BackEndProject.Models.NewsSearchRequest.html#BackEndProject_Models_NewsSearchRequest_SortBy
+  name: SortBy
+  nameWithType: NewsSearchRequest.SortBy
+  fullName: BackEndProject.Models.NewsSearchRequest.SortBy
+- uid: BackEndProject.Models.NewsSearchRequest.Page*
+  commentId: Overload:BackEndProject.Models.NewsSearchRequest.Page
+  href: BackEndProject.Models.NewsSearchRequest.html#BackEndProject_Models_NewsSearchRequest_Page
+  name: Page
+  nameWithType: NewsSearchRequest.Page
+  fullName: BackEndProject.Models.NewsSearchRequest.Page
+- uid: BackEndProject.Models.NewsSearchRequest.PageSize*
+  commentId: Overload:BackEndProject.Models.NewsSearchRequest.PageSize
+  href: BackEndProject.Models.NewsSearchRequest.html#BackEndProject_Models_NewsSearchRequest_PageSize
+  name: PageSize
+  nameWithType: NewsSearchRequest.PageSize
+  fullName: BackEndProject.Models.NewsSearchRequest.PageSize

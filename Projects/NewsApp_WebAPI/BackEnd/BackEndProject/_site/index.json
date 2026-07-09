@@ -1,0 +1,42 @@
+{
+  "api/BackEndProject.Endpoints.NewsClientEndPointsV1.html": {
+    "href": "api/BackEndProject.Endpoints.NewsClientEndPointsV1.html",
+    "title": "Class NewsClientEndPointsV1 | apiWebsite",
+    "summary": "Class NewsClientEndPointsV1 Namespace BackEndProject.Endpoints Assembly BackEndProject.dll public static class NewsClientEndPointsV1 Inheritance object NewsClientEndPointsV1 Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GetHeadlines(NewsApiClient) public static ArticlesResult GetHeadlines(NewsApiClient newsApiClient) Parameters newsApiClient NewsApiClient Returns ArticlesResult MapNewsEndPointsV1(IEndpointRouteBuilder) public static RouteGroupBuilder MapNewsEndPointsV1(this IEndpointRouteBuilder app) Parameters app IEndpointRouteBuilder Returns RouteGroupBuilder"
+  },
+  "api/BackEndProject.Endpoints.html": {
+    "href": "api/BackEndProject.Endpoints.html",
+    "title": "Namespace BackEndProject.Endpoints | apiWebsite",
+    "summary": "Namespace BackEndProject.Endpoints Classes NewsClientEndPointsV1"
+  },
+  "api/BackEndProject.Models.NewsResponse.html": {
+    "href": "api/BackEndProject.Models.NewsResponse.html",
+    "title": "Class NewsResponse | apiWebsite",
+    "summary": "Class NewsResponse Namespace BackEndProject.Models Assembly BackEndProject.dll Represents a response returned from the news API. public class NewsResponse Inheritance object NewsResponse Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields Articles Articles objects returned by the news API. public List<Article> Articles Field Value List<Article> Status Gets or sets the status of the news API request. public string Status Field Value string TotalResults Total number of articles that match the request. public int TotalResults Field Value int"
+  },
+  "api/BackEndProject.Models.NewsSearchRequest.html": {
+    "href": "api/BackEndProject.Models.NewsSearchRequest.html",
+    "title": "Class NewsSearchRequest | apiWebsite",
+    "summary": "Class NewsSearchRequest Namespace BackEndProject.Models Assembly BackEndProject.dll Class NewsSearchRequest is used to collect all the query parameters. This class acts as a model for the request parameters instead of writing all query variables as parameters in the endpoint. public class NewsSearchRequest Inheritance object NewsSearchRequest Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Category [FromQuery(Name = \"category\")] public Categories? Category { get; set; } Property Value Categories? Country [FromQuery(Name = \"country\")] public Countries? Country { get; set; } Property Value Countries? Domains [FromQuery(Name = \"domains\")] public string[]? Domains { get; set; } Property Value string[] ExcludeDomains [FromQuery(Name = \"excludeDomains\")] public string[]? ExcludeDomains { get; set; } Property Value string[] ExcludeSources [FromQuery(Name = \"excludeSources\")] public string[]? ExcludeSources { get; set; } Property Value string[] From [FromQuery(Name = \"from\")] public int? From { get; set; } Property Value int? KeyWords [FromQuery(Name = \"qInTitle\")] public string? KeyWords { get; set; } Property Value string Language [FromQuery(Name = \"language\")] public Languages? Language { get; set; } Property Value Languages? Page [FromQuery(Name = \"page\")] public int? Page { get; set; } Property Value int? PageSize [FromQuery(Name = \"pageSize\")] public int? PageSize { get; set; } Property Value int? Query Variables describe the query parameters. The query parameters are used to filter the news articles. The query parameters are optional. [FromQuery(Name = \"query\")] public string? Query { get; set; } Property Value string SearchIn [FromQuery(Name = \"searchIn\")] public string? SearchIn { get; set; } Property Value string SortBy [FromQuery(Name = \"sortBy\")] public string? SortBy { get; set; } Property Value string Sources [FromQuery(Name = \"sources\")] public string[]? Sources { get; set; } Property Value string[] To [FromQuery(Name = \"to\")] public int? To { get; set; } Property Value int?"
+  },
+  "api/BackEndProject.Models.html": {
+    "href": "api/BackEndProject.Models.html",
+    "title": "Namespace BackEndProject.Models | apiWebsite",
+    "summary": "Namespace BackEndProject.Models Classes NewsResponse Represents a response returned from the news API. NewsSearchRequest Class NewsSearchRequest is used to collect all the query parameters. This class acts as a model for the request parameters instead of writing all query variables as parameters in the endpoint."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | apiWebsite",
+    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  },
+  "y/getting-started.html": {
+    "href": "y/getting-started.html",
+    "title": "Getting Started | apiWebsite",
+    "summary": "Getting Started"
+  },
+  "y/introduction.html": {
+    "href": "y/introduction.html",
+    "title": "Introduction | apiWebsite",
+    "summary": "Introduction"
+  }
+}

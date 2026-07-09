@@ -1,0 +1,20 @@
+### YamlMime:TableOfContent
+items:
+- uid: BackEndProject.Endpoints
+  name: BackEndProject.Endpoints
+  type: Namespace
+  items:
+  - uid: BackEndProject.Endpoints.NewsClientEndPointsV1
+    name: NewsClientEndPointsV1
+    type: Class
+- uid: BackEndProject.Models
+  name: BackEndProject.Models
+  type: Namespace
+  items:
+  - uid: BackEndProject.Models.NewsResponse
+    name: NewsResponse
+    type: Class
+  - uid: BackEndProject.Models.NewsSearchRequest
+    name: NewsSearchRequest
+    type: Class
+memberLayout: SamePage

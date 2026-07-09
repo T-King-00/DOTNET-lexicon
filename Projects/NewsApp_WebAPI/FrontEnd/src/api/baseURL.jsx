@@ -1,0 +1,1 @@
+﻿export const baseURL = "https://localhost:7773/api/v1/news";
