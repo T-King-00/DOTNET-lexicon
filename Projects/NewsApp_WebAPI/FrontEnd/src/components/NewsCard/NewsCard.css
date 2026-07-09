@@ -8,6 +8,7 @@
   --line-strong: rgba(23, 19, 13, 0.38);
   --accent: #b93d2f;
 
+  display: block;
   position: relative;
   width: 100%;
   min-width: 0;

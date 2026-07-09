@@ -26,7 +26,8 @@ const Router=createBrowserRouter([
                 index:true, element:<Navigate to="/news"/>
             },
             { path: "news" ,Component: NewsHomePage},
-            { path:"news/:category", Component: NewsCategoryPage}
+            { path:"news/:category", Component: NewsCategoryPage},
+            { path:"news/:category/:newsIndex", Component:ArticleDetailsPage}
 
         ]
     }

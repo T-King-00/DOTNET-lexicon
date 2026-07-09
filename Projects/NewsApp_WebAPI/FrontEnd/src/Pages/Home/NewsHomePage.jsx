@@ -3,6 +3,7 @@ import './NewsHomePage.css'
 import {useEffect, useState} from "react";
 import {FetchNews} from "../../api/get.jsx";
 import PaginationComponent from "../../components/Pagination/paginationComponent.jsx";
+import NewsCardList from "@/components/NewsCardList/NewsCardList.jsx";
 
 function formatDate(value) {
     if (!value) return 'Date unavailable'
@@ -57,7 +58,7 @@ export default function NewsHomePage() {
 
         loadData()
     }, [])
-    var visibleArticles=getArticles(allArticles,currentPage,articlesPerPage)
+    var articesListPerPage=getArticles(allArticles,currentPage,articlesPerPage)
     const totalPages = Math.ceil(allArticles.length / articlesPerPage)
 
     return (
@@ -67,28 +68,8 @@ export default function NewsHomePage() {
             <div className="container grid grid-cols-1 gap-4  " aria-label="News articles" >
 
 
-                {/* the next part fetch every item from the list of allArticles and maps it to one card */}
-                {visibleArticles.map((article, index) => {
-                const source = getSource(article)
-                const category = article.categories ?? article.category ?? 'World'
-                const imageUrl = getImageUrl(article)
-                const publishedAt = formatDate(article.PublishedAt)
-
-                const articleUrl = article.url ?? article.link;
-                const CardTag = articleUrl ? 'a' : 'article';
-                return (
-                        <>
-
-                            <NewsCard
-                                    key={article.url ?? index} news={article}
-                                          category={category} source={source} publishedAt={publishedAt}
-                                          imageUrl={imageUrl} cardTag={CardTag} href={articleUrl}
-                            />
-
-
-                        </>
-                )})
-            }
+                {/* the next part call NewsCardList and give it the articesListPerPage to render */}
+                <NewsCardList   articles={articesListPerPage}  startIndex={(currentPage - 1) * articlesPerPage} />
 
             </div>
             <PaginationComponent totalPages={totalPages} page={currentPage} handleClick={setCurrentPage}/>

@@ -1,16 +1,26 @@
 import './NewsCard.css'
+import {NavLink} from "react-router";
 
 export function NewsCard(props) {
 
   const news=props.news;
-  const CardTag=props.cardTag;
-  const href=props.href;
+  const refUrl=props.refUrl;
+
+  const to=props.to;
+  const state=props.state;
   const source=props.source;
   const publishedAt=props.publishedAt;
   const category=props.category;
   const imageUrl=props.imageUrl;
+
+
+
   return (
-          <CardTag className="news-card " {...(href ? { href } : {})} >
+          <NavLink
+              className="news-card"
+              to={to}
+              state={state}
+          >
 
             <header className="news-card__header">
               <span className="news-card__kicker">{category}</span>
@@ -30,10 +40,10 @@ export function NewsCard(props) {
             <h2 className="news-card__title">{news.title}</h2>
             <div className="news-card__byline">
               <span>By {news.author ?? source}</span>
-              <time >{publishedAt?? fdsvfds}  </time>
+              <time >{publishedAt?? 'Date unavailable'}  </time>
             </div>
             <p className="news-card__description">{news.description}</p>
-          </CardTag>
+          </NavLink>
 
         )
 }
