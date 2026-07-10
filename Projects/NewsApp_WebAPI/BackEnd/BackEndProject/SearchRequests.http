@@ -1,52 +1,57 @@
-### News root
-GET https://localhost:7773/api/v1/news
-
+### News API root
+### https://localhost:7773/api/v1/news
 ###
 
-### SearchAPI - defaults only returns =>  "message": "Required parameters are missing. Please set any of the following parameters and try again: sources, q, language, country, category."
+### Search API - no filters
+### Expected: returns a validation message because at least one search parameter is required.
 GET https://localhost:7773/api/v1/news/search
 
 ###
 
-### SearchAPI - only category => works
+### Search API - filter by category
 GET https://localhost:7773/api/v1/news/search?category=Technology
 
 ###
 
-### SearchAPI - only language => works
+### Search API - filter by language
 GET https://localhost:7773/api/v1/news/search?language=EN
 
 ###
 
-### SearchAPI - only country => works
+### Search API - filter by country
 GET https://localhost:7773/api/v1/news/search?country=US
 
 ###
 
-### SearchAPI - language, country, category
+### Search API - combine language, country, and category filters
 GET https://localhost:7773/api/v1/news/search?language=EN&country=US&category=Technology
 
 ###
 
-### SearchAPI - query text with category
+### Search API - search by query text within a category
 GET https://localhost:7773/api/v1/news/search?query=technology&category=Technology
 
 ###
 
-### SearchAPI - paging and sort
+### Search API - search by keyword
+GET https://localhost:7773/api/v1/news/search?searchKeyWords=bitcoin
+
+###
+
+### Search API - apply paging and sort by publication date
 GET https://localhost:7773/api/v1/news/search?language=EN&country=US&page=1&pageSize=5&sortBy=publishedAt
 
 ###
 
-### SearchAPI - title keyword
+### Search API - search by title keyword
 GET https://localhost:7773/api/v1/news/search?qInTitle=ai&language=EN&country=US
 
 ###
 
-### SearchAPI - domains
+### Search API - filter by one or more domains
 GET https://localhost:7773/api/v1/news/search?domains=techcrunch.com&domains=theverge.com&language=EN
 
 ###
 
-### SearchAPI - sources
+### Search API - filter by one or more sources
 GET https://localhost:7773/api/v1/news/search?sources=bbc-news&sources=the-verge&language=EN

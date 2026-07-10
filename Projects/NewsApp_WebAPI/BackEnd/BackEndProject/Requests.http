@@ -1,5 +1,5 @@
-﻿### News root
-GET https://localhost:7773/api/v1/news
+﻿### News API root
+### https://localhost:7773/api/v1/news
 ###
 
 ### TopHeadlines -give only one parameter is enough ex: country => works
@@ -8,5 +8,4 @@ GET  https://localhost:7773/api/v1/news/topHeadlines?country=US
 
 ### Fetching cateogires.
 GET https://localhost:7773/api/v1/news/categories
-
 ###

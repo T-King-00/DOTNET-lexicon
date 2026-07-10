@@ -6,7 +6,7 @@ using NewsAPI.Models;
 namespace BackEndProject.Endpoints;
 
 public static class NewsClientEndPointsV1
-{g
+{
     public static RouteGroupBuilder MapNewsEndPointsV1(this IEndpointRouteBuilder app)
     {
         var groupBuilder = app.MapGroup("api/v1/news").WithTags("News Endpoints");
@@ -22,51 +22,87 @@ public static class NewsClientEndPointsV1
 
 
 
-    private static ArticlesResult GetTopHeadlines([AsParameters] NewsSearchRequest request,NewsApiClient newsApiClient)
+    private static IResult GetTopHeadlines([AsParameters] NewsSearchRequest request, NewsApiClient newsApiClient)
     {
-        var result = newsApiClient.GetTopHeadlines(new TopHeadlinesRequest()
+        try
         {
-            Country = request.Country,
-            Language = request.Language,
-        });
-        
-        return result;
-    }
-
-    private static ArticlesResult GetBySources([AsParameters] NewsSearchRequest request, NewsApiClient newsApiClient)
-    {
-        var result = newsApiClient.GetEverything(new EverythingRequest()
-        {
-            Language = request.Language,
-            Sources = request.Sources.ToList()
+            var result = newsApiClient.GetTopHeadlines(new TopHeadlinesRequest()
+            {
+                Country = request.Country,
+                Language = request.Language,
+            });
+            return Results.Ok(result);
             
-        });
-        return result;
-    }
-
-    private static ArticlesResult SearchBySearchParams([AsParameters] NewsSearchRequest request, NewsApiClient newsApiClient)
-    {
-        var result = newsApiClient.GetTopHeadlines(new TopHeadlinesRequest()
+        }
+        catch (Exception e)
         {
-            Language = request.Language,
-            Country = request.Country,
-            Category = request.Category  ,
-            Q = request.Query,
-            Sources = request.Sources.ToList()
-        });
-        Console.WriteLine(result.Articles.Count);
-        return result;
+            Console.WriteLine(e);
+            return Results.Problem("Failed to fetch top headlines.");
+        }
     }
 
-    private static List<string> GetCategories(HttpContext context)
+    private static IResult GetBySources([AsParameters] NewsSearchRequest request, NewsApiClient newsApiClient)
     {
-        List<string> categoriesList = new List<string>();
-        categoriesList=Enum.GetNames(typeof(Categories)).ToList();
+        if (request.Sources is null || request.Sources.Length == 0)
+        {
+            return Results.BadRequest("At least one source is required.");
+        }
 
-      
-        Console.Write(categoriesList.Count);
+        try
+        {
+            var result = newsApiClient.GetEverything(new EverythingRequest()
+            {
+                Language = request.Language,
+                Sources = request.Sources.ToList()
+            
+            });
+            return Results.Ok(result);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return Results.Problem("Failed to fetch news by sources.");
+        }
+    }
 
-        return categoriesList;
+    private static IResult SearchBySearchParams([AsParameters] NewsSearchRequest request, NewsApiClient newsApiClient)
+    {
+        try
+        {
+            var result = newsApiClient.GetTopHeadlines(new TopHeadlinesRequest()
+            {
+                Language = request.Language,
+                Country = request.Country,
+                Category = request.Category,
+                Q = request.Keywords,
+            
+            });
+            Console.WriteLine(result.Articles.Count);
+            return Results.Ok(result);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return Results.Problem("Failed to search news.");
+        }
+    }
+
+    private static IResult GetCategories(HttpContext context)
+    {
+        try
+        {
+            List<string> categoriesList = new List<string>();
+        
+            categoriesList=Enum.GetNames(typeof(Categories)).ToList();
+            Console.Write(categoriesList.Count);
+
+            return Results.Ok(categoriesList);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return Results.Problem("Failed to fetch categories.");
+        }
     }
     
 }

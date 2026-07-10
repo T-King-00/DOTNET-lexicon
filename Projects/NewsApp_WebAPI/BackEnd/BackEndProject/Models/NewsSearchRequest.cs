@@ -17,9 +17,11 @@ public class NewsSearchRequest
     /// The query parameters are used to filter the news articles.
     /// The query parameters are optional.
     /// </summary>
-   
-    [FromQuery(Name="query")]
-    public string? Query { get; set; }=string.Empty;
+    ///
+    /// 
+    //keyword in title or article body
+    [FromQuery(Name="searchKeyWords")]
+    public string? Keywords { get; set; }=string.Empty;
     
     [FromQuery(Name="from")]
     public int? From { get; set; }
@@ -33,10 +35,7 @@ public class NewsSearchRequest
     public Countries? Country { get; set; } = Countries.US;
     [FromQuery(Name = "category")] 
     public Categories? Category { get; set; }
-
-    //keyword in title or article body
-    [FromQuery(Name = "qInTitle")] 
-    public string? KeyWords { get; set; } 
+    
     
     [FromQuery(Name = "searchIn")]
     public string? SearchIn { get; set; }
