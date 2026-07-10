@@ -14,6 +14,13 @@ export async function FetchNews(){
     return response;
 }
 
+export async function FetchNewsByKeyword(keyword){
+
+    const url =baseURL + '/search?';
+    const response =await axios.get(url+"searchKeyWords="+keyword );
+    return response;
+}
+
 export async function FetchNewsByCategory(category){
     const url =baseURL + '/search?';
     const response =await axios.get(url+"language=EN&category="+category );

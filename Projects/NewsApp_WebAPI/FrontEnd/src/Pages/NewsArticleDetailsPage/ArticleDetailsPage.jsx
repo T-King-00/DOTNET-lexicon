@@ -70,7 +70,7 @@ export default function ArticleDetailsPage() {
                     Special Report
                 </p>
 
-                <h1 className="mx-auto mt-3 max-w-5xl font-serif text-4xl font-black uppercase leading-[0.92] tracking-normal text-stone-950 sm:text-6xl lg:text-7xl">
+                <h1 className="mx-auto mt-3 max-w-5xl font-serif text-4xl color-black uppercase leading-[0.92] tracking-normal text-stone-950 sm:text-6xl lg:text-7xl">
                     {article.title ?? fallbackArticle.title}
                 </h1>
 
@@ -125,8 +125,7 @@ export default function ArticleDetailsPage() {
 
             <article className="mx-auto grid max-w-5xl gap-8 py-8 lg:grid-cols-[11rem_minmax(0,1fr)]">
                 <div className="border-y border-stone-800/60 py-4 font-serif text-xs font-bold uppercase tracking-[0.2em] text-stone-600 lg:border-y-0 lg:border-r lg:pr-5">
-                    <p>Full Story</p>
-                    <p className="mt-3 text-stone-500">NewsWebApp Archive</p>
+                    <p className="mt-3 text-stone-500">News Today Archive</p>
                 </div>
 
                 <div className="font-serif text-lg leading-9 text-stone-800 sm:text-xl sm:leading-10">
