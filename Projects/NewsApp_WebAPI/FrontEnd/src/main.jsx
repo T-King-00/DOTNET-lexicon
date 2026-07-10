@@ -1,6 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import {RouterProvider, createBrowserRouter, Route, createRoutesFromElements, Routes, Navigate} from "react-router"
+import {
+    RouterProvider,
+    createBrowserRouter,
+    Route,
+    createRoutesFromElements,
+    Routes,
+    Navigate,
+    createHashRouter
+} from "react-router"
 import './index.css'
 import NewsHomePage from "./Pages/Home/NewsHomePage.jsx";
 import ArticleDetailsPage from "./Pages/NewsArticleDetailsPage/ArticleDetailsPage.jsx";
@@ -17,7 +25,7 @@ import NewsCategoryPage from "./Pages/Category/NewsCategoryPage.jsx";
         </Route>
     )
 )*/
-const Router=createBrowserRouter([
+const Router=createHashRouter([
     {
         path:"/", Component:App,
         errorElement:<p> Route error: Failed to render</p>,
